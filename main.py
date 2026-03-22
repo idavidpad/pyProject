@@ -6,10 +6,16 @@
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f"Hi, {name}")  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
+def sayHello():
+    inp = input("Europe floor? ")
+    usf = int(inp) + 1
+    print(f"US floor {usf}")
+
+
+# Press the green button in the gutter to run the script.jj
 if __name__ == "__main__":
     print_hi("PyCharm")
     sayHello()
